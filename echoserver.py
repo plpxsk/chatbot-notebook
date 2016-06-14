@@ -28,6 +28,10 @@ def handle_messages():
         send_message(PAT, sender, message)
     return "ok"
 
+@app.route('/page')
+def main():
+    return render_template('index.html')
+
 def messaging_events(payload):
     """Generate tuples of (sender_id, message_text) from the
     provided payload.
@@ -38,7 +42,7 @@ def messaging_events(payload):
         if "message" in event and "text" in event["message"]:
             yield event["sender"]["id"], event["message"]["text"].encode('unicode_escape')
         else:
-            yield event["sender"]["id"], "I can't echo this"
+            yield event["sender"]["id"], "Hmm, I can't echo this :("
 
 
 def send_message(token, recipient, text):
