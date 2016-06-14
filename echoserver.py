@@ -8,7 +8,7 @@ app = Flask(__name__)
 # by the Facebook App that will be created.
 PAT = 'EAAWeiepMTPoBAJZAUI8lZAFZCNVLi0HdVFgbrFzsJ5ob3HgbIQflP1JQiziBsc9vLVV7MuyPepmygfajT7GYdQxPdLRhcPdYlKmCCuWC2WcPXGL2zKrJXqdhBs35TEpoGYj2upMCtxgvh4vmzhcyRYdnuIHpaFl9XZADNuN1UgZDZD'
 
-@app.route('/', methods=['GET'])
+@app.route('/app', methods=['GET'])
 def handle_verification():
     print "Handling Verification."
     if request.args.get('hub.verify_token', '') == 'my_voice_is_my_password_verify_me':
@@ -18,7 +18,7 @@ def handle_verification():
         print "Verification failed!"
         return 'Error, wrong validation token'
 
-@app.route('/', methods=['POST'])
+@app.route('/app', methods=['POST'])
 def handle_messages():
     print "Handling Messages"
     payload = request.get_data()
@@ -28,9 +28,6 @@ def handle_messages():
         send_message(PAT, sender, message)
     return "ok"
 
-@app.route('/page')
-def main():
-    return render_template('index.html')
 
 def messaging_events(payload):
     """Generate tuples of (sender_id, message_text) from the
