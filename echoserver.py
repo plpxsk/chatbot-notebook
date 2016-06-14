@@ -6,11 +6,7 @@ app = Flask(__name__)
 
 # This needs to be filled with the Page Access Token that will be provided
 # by the Facebook App that will be created.
-<<<<<<< HEAD
 PAT = 'EAAWeiepMTPoBAJZAUI8lZAFZCNVLi0HdVFgbrFzsJ5ob3HgbIQflP1JQiziBsc9vLVV7MuyPepmygfajT7GYdQxPdLRhcPdYlKmCCuWC2WcPXGL2zKrJXqdhBs35TEpoGYj2upMCtxgvh4vmzhcyRYdnuIHpaFl9XZADNuN1UgZDZD'
-=======
-PAT = ''
->>>>>>> a7bb670f4afc7d71ceba9218a5efcfa9304261f9
 
 @app.route('/', methods=['GET'])
 def handle_verification():
@@ -32,13 +28,10 @@ def handle_messages():
         send_message(PAT, sender, message)
     return "ok"
 
-<<<<<<< HEAD
 @app.route('/page')
 def main():
     return render_template('index.html')
 
-=======
->>>>>>> a7bb670f4afc7d71ceba9218a5efcfa9304261f9
 def messaging_events(payload):
     """Generate tuples of (sender_id, message_text) from the
     provided payload.
@@ -49,11 +42,7 @@ def messaging_events(payload):
         if "message" in event and "text" in event["message"]:
             yield event["sender"]["id"], event["message"]["text"].encode('unicode_escape')
         else:
-<<<<<<< HEAD
             yield event["sender"]["id"], "Hmm, I can't echo this :("
-=======
-            yield event["sender"]["id"], "I can't echo this"
->>>>>>> a7bb670f4afc7d71ceba9218a5efcfa9304261f9
 
 
 def send_message(token, recipient, text):
