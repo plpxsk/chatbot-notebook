@@ -28,6 +28,9 @@ def handle_messages():
         send_message(PAT, sender, message)
     return "ok"
 
+@app.route('/')
+def main():
+    return render_template('index.html')
 
 def messaging_events(payload):
     """Generate tuples of (sender_id, message_text) from the
