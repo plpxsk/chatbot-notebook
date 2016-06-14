@@ -1,7 +1,10 @@
 # chatbot-notebook
 everyone is making a coding notebook, and so will I
 
+<<<<<<< HEAD
 see branch `github` 
+=======
+>>>>>>> a7bb670f4afc7d71ceba9218a5efcfa9304261f9
 
 # stack
 
