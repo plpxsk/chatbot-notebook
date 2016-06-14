@@ -2,7 +2,11 @@
 everyone is making a coding notebook, and so will I
 
 
+# stack
 
+* facebook messenger api
+* python/flask
+* heroku
 
 # current notebooks
 
