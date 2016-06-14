@@ -21,6 +21,9 @@
 
     <body><!-- BEGIN BODY -----------------  -->
 
+	{% block topbody}
+	{% endblock}
+
 	{% block navbar %}
 	<div class="navbar navbar-static-top navbar-default">
 	    <div class="container">
@@ -39,7 +42,7 @@
             <hr>
             {% block footer %}
             <footer class="footer" style="text-align:center">
-		<p><a href="https://github.com/pavopax/bus-boss" target="_blank">Source</a></p>
+		<p><a href="https://github.com/pavopax/chatbot-notebook" target="_blank">Source</a></p>
             </footer>
             {% endblock %}
 	</div>
