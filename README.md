@@ -1,5 +1,7 @@
 # chatbot-notebook
 
+<img src="/static/img/profile-pic.png">
+<br>
 **initial objective**: [everyone](#current-notebooks) is making a coding notebook, and so will I
 
 **outcome**: what this turned out to be is a Facebook Messenger chatbot that echos
@@ -8,7 +10,7 @@ back to you whatever you type
 See: https://www.facebook.com/chatbot.notebook/
 
 <img src="/static/img/responsiveness.png">
-<img src="/static/img/profile-pic.png">
+
 
 # stack
 
