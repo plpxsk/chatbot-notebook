@@ -1,10 +1,13 @@
 # chatbot-notebook
-everyone is making a coding notebook, and so will I
 
-<<<<<<< HEAD
-see branch `github` 
-=======
->>>>>>> a7bb670f4afc7d71ceba9218a5efcfa9304261f9
+**initial objective**: [everyone](#current-notebooks) is making a coding notebook, and so will I
+
+**outcome**: what this turned out to be is a Facebook Messenger chatbot that echos
+back to you whatever you type
+
+See: https://www.facebook.com/chatbot.notebook/
+
+<img src="/static/img/responsiveness.png">
 
 # stack
 
@@ -12,7 +15,7 @@ see branch `github`
 * python/flask
 * heroku
 
-# current notebooks
+# current notebooks you can choose from
 
 http://jupyter.org
 
@@ -23,7 +26,7 @@ https://github.com/att/rcloud
 http://zeppelin-project.org
 
 
-# sources/references
+# tutorials
 
 http://tsaprailis.com/2016/06/02/How-to-build-and-deploy-a-Facebook-Messenger-bot-with-Python-and-Flask-a-tutorial/
 
