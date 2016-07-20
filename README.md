@@ -8,6 +8,7 @@ back to you whatever you type
 See: https://www.facebook.com/chatbot.notebook/
 
 <img src="/static/img/responsiveness.png">
+<img src="/static/img/profile-pic.png">
 
 # stack
 
