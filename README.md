@@ -2,7 +2,7 @@
 
 <img src="/static/img/profile-pic.png">
 
-<br><br>
+<br>
 
 **initial objective**: [everyone](#current-notebooks-you-can-choose-from) is making a coding notebook, and so will I
 
