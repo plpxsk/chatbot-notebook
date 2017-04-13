@@ -1,5 +1,8 @@
 # Chatbot Notebook
 
+Talk to me [here](https://www.facebook.com/chatbot.notebook/)! AMA!
+
+
 <img src="/static/img/profile-pic.png">
 
 <br>
