@@ -1,18 +1,14 @@
-# Chatbot Notebook
+# chatbot notebook
 
-Talk to me [here](https://www.facebook.com/chatbot.notebook/)! AMA!
+<a href="https://www.facebook.com/chatbot.notebook/" target="_blank"><img src="/static/img/profile-pic.png"></a>
 
+Send me a message <a href="https://www.facebook.com/chatbot.notebook/" target="_blank">here</a>. AMA!
 
-<img src="/static/img/profile-pic.png">
+# details
 
-<br>
+initial objective: [everyone](#current-notebooks-you-can-choose-from) is making a coding notebook, and so will I
 
-**initial objective**: [everyone](#current-notebooks-you-can-choose-from) is making a coding notebook, and so will I
-
-**outcome**: what this turned out to be is a Facebook Messenger chatbot that echos
-back to you whatever you type
-
-See: https://www.facebook.com/chatbot.notebook/
+outcome: what this turned out to be is a Facebook Messenger chatbot doctor. It's still learning to speak.
 
 <img src="/static/img/responsiveness.png">
 
