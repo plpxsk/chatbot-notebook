@@ -1,5 +1,7 @@
 # chatbot notebook
 
+[![Heroku](https://heroku-badges.herokuapp.com/?app=chatbot-notebook)]
+
 <a href="https://www.facebook.com/chatbot.notebook/" target="_blank"><img src="/static/img/profile-pic.png"></a>
 
 Send me a message <a href="https://www.facebook.com/chatbot.notebook/" target="_blank">here</a>. AMA!
